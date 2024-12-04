@@ -9,92 +9,92 @@
     "technologies": {
         ".NET": "net",
         "C#": "c-1",
-        "C++": "c-2",
-        "Python": "py",
-        "JavaScript": "js"
+        "C++": "c-2"
     },
     "repositories": [
         {
             "name": "MvvmCross",
             "link": "https://github.com/MvvmCross/MvvmCross",
-            "label": "first-timers-only",
+            "label": "good first issue",
             "technologies": [".NET"],
-            "description": "The .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows and Mac.",
-            "metadata": {
-                "pattern": "Decorator",
-                "difficulty": "Intermediate"
-            }
+            "description": "Cross-platform .NET MVVM framework for Xamarin, Windows, and Mac."
         },
         {
-            "name": "FastAPI",
-            "link": "https://github.com/tiangolo/fastapi",
+            "name": "RawCMS",
+            "link": "https://github.com/arduosoft/RawCMS",
             "label": "good first issue",
-            "technologies": ["Python"],
-            "description": "A modern, fast (high-performance) web framework for building APIs with Python 3.6+ based on standard Python type hints.",
-            "metadata": {
-                "pattern": "Factory",
-                "difficulty": "Beginner"
-            }
+            "technologies": [".NET"],
+            "description": "A headless CMS built with ASP.NET Core for API-first developers."
+        },
+        {
+            "name": "CockroachDB",
+            "link": "https://github.com/cockroachdb/cockroach",
+            "label": "good first issue",
+            "technologies": ["Go"],
+            "description": "A scalable and survivable SQL database for distributed environments."
+        },
+        {
+            "name": "grok.net",
+            "link": "https://github.com/Marusyk/grok.net",
+            "label": "good first issue",
+            "technologies": ["C#"],
+            "description": "A grok pattern matching library for .NET."
+        },
+        {
+            "name": "osu!",
+            "link": "https://github.com/ppy/osu",
+            "label": "good first issue",
+            "technologies": ["C#"],
+            "description": "A rhythm game for music lovers."
+        },
+        {
+            "name": "Uno Platform",
+            "link": "https://github.com/unoplatform/uno",
+            "label": "good first issue",
+            "technologies": ["C#"],
+            "description": "Pixel-perfect apps in C# and XAML for iOS, Android, and WebAssembly."
+        },
+        {
+            "name": "electron",
+            "link": "https://github.com/electron/electron",
+            "label": "good first issue",
+            "technologies": ["C++", "JavaScript"],
+            "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS."
+        },
+        {
+            "name": "Godot Engine",
+            "link": "https://github.com/godotengine/godot",
+            "label": "good first issue",
+            "technologies": ["C++"],
+            "description": "A cross-platform 2D and 3D game engine."
+        },
+        {
+            "name": "tensorflow",
+            "link": "https://github.com/tensorflow/tensorflow",
+            "label": "good first issue",
+            "technologies": ["C++"],
+            "description": "Scalable machine learning computation using data flow graphs."
+        },
+        {
+            "name": "fastify",
+            "link": "https://github.com/fastify/fastify",
+            "label": "good first issue",
+            "technologies": ["JavaScript"],
+            "description": "A fast and low-overhead web framework for Node.js."
+        },
+        {
+            "name": "Rustfmt",
+            "link": "https://github.com/rust-lang-nursery/rustfmt",
+            "label": "good first issue",
+            "technologies": ["Rust"],
+            "description": "A tool for formatting Rust code according to style guidelines."
         },
         {
             "name": "React",
             "link": "https://github.com/facebook/react",
             "label": "good first issue",
             "technologies": ["JavaScript"],
-            "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-            "metadata": {
-                "pattern": "Observer",
-                "difficulty": "Beginner"
-            }
-        },
-        {
-            "name": "TensorFlow",
-            "link": "https://github.com/tensorflow/tensorflow",
-            "label": "stat:contributions-welcome",
-            "technologies": ["C++"],
-            "description": "Computation using data flow graphs for scalable machine learning.",
-            "metadata": {
-                "pattern": "Strategy",
-                "difficulty": "Advanced"
-            }
-        },
-        {
-            "name": "Docker CLI",
-            "link": "https://github.com/docker/cli",
-            "label": "exp/beginner",
-            "technologies": ["Go"],
-            "description": "The Docker CLI.",
-            "metadata": {
-                "pattern": "Adapter",
-                "difficulty": "Intermediate"
-            }
-        }
-    ],
-    "design_patterns": [
-        {
-            "name": "Decorator",
-            "description": "Used to dynamically add behavior or responsibilities to an object.",
-            "example_usage": "Enhance repository descriptions with metadata dynamically."
-        },
-        {
-            "name": "Factory",
-            "description": "Used to create objects without specifying the exact class of object that will be created.",
-            "example_usage": "Abstract repository initialization based on technology."
-        },
-        {
-            "name": "Observer",
-            "description": "Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified.",
-            "example_usage": "Track changes in repositories and notify users about updates."
-        },
-        {
-            "name": "Strategy",
-            "description": "Defines a family of algorithms, encapsulates each one, and makes them interchangeable.",
-            "example_usage": "Choose different processing strategies for repository metadata."
-        },
-        {
-            "name": "Adapter",
-            "description": "Converts the interface of a class into another interface clients expect.",
-            "example_usage": "Integrate third-party APIs into the repository list."
+            "description": "A declarative, efficient, and flexible JavaScript library for UIs."
         }
     ]
 }
